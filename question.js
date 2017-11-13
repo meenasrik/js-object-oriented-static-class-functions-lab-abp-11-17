@@ -7,7 +7,7 @@ class Question {
   }
 
   save() {
-    Question.constructor._All.push(this);
+    this.constructor._All.push(this);
   }
 
   static All() {
